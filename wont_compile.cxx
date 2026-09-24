@@ -1,7 +1,9 @@
 #include <string>
+#include <iostream>
 
 int main() {
     std::string course_name {"MNXB11"};
-    std:cout << "Hello, " + course_code + " World!\n";
+    std::cout << "Hello, " + course_name + " World!\n";
 
-    return 0;}
+    return 0;
+}
